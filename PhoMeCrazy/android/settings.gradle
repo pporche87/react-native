@@ -1,0 +1,3 @@
+rootProject.name = 'PhoMeCrazy'
+
+include ':app'
