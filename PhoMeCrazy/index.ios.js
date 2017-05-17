@@ -7,6 +7,7 @@
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
 
+// stack navigation 
 import AppNavigator from './app/navigation/AppNavigator'
 
 export default class PhoMeCrazy extends Component {

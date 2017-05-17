@@ -9,6 +9,9 @@ import {
 
 import YelpApi from 'v3-yelp-api'
 import config from '../../config.js'
+import {
+	Header
+} from './common'
 
 export default class PrimarySearch extends Component {
 	state = {
@@ -57,6 +60,7 @@ export default class PrimarySearch extends Component {
 	render() {
 		return (
 			<View style={styles.container}>
+				<Header headerText='Pho Me Crazy!' />
 				<Image source={require('../../images/pho.png')} style={{height: 300, width: 300}} />
 				<TouchableOpacity
 					style={{borderRadius: 7, padding: 10, backgroundColor: 'rgb(139, 33, 61)'}}
