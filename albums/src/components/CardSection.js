@@ -9,6 +9,8 @@ const CardSection = (props) => {
 	)
 }
 
+// 43 positioning of elements - notes for blog and whiteboarding 
+
 const styles = {
 	containerStyle: {
 		borderBottomWidth: 1,
