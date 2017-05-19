@@ -13,7 +13,6 @@ import {
 const GymDetail = ({ business }) => {
 	const {
 		name,
-		display_address,
 		display_phone,
 		image_url,
 		url
