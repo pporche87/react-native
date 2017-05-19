@@ -1,13 +1,13 @@
 import { StackNavigator } from 'react-navigation'
 import PrimarySearch from './PrimarySearch'
-import Results from './Results'
+import GymList from './GymList'
 
 const gymFinderApp = StackNavigator({
 	PrimarySearch: {
 		screen: PrimarySearch
 	},
-	Results: {
-		screen: Results
+	GymList: {
+		screen: GymList
 	}
 })
 
