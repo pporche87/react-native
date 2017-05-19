@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { View, Text, ScrollView } from 'react-native'
-import axios from 'axios'
 import GymDetail from './GymDetail'
 import { customHeader } from '../config'
+import axios from 'axios'
 
 export default class GymList extends Component {
 	static navigationOptions	 =  {
@@ -20,7 +20,7 @@ export default class GymList extends Component {
 		axios.get('https://api.yelp.com/v3/businesses/search?term=gyms&location=San+Francisco', customHeader)
 			.then(response => {
 				this.setState({ gyms: response.data.businesses })
-			})
+		})
 	}
 
 	renderGyms() {
