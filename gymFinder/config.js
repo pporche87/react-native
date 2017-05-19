@@ -1,4 +1,5 @@
-module.exports = {
-	consumer_key: '_iPx95rgKjfeA5Fx9TZLJg',
-	consumer_secret: 'DYELN522DXVOyA8GeunhHeeonqyjf28oMwSdKoIu4dHGnqbsKlUDYWGGo49JtaNR'
+const customHeader = {
+	headers: { 'Authorization': 'bearer m-WMwsZfIQPmgPFiBHOGFAlLZ5Rb6zNu0BfXPDEenRX-WX4EW1aXpE9ZiBIU4f1wcueIbfqJbNNIfbJ366hKVIxSg6CawC914ePZPUHTBxQDeAcrBNMqLUjMFDEaWXYx' }
 }
+
+export { customHeader }
